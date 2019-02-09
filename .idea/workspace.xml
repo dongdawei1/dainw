@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f4a1018-2d52-46ae-983d-a3174d9b35c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image/icon/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/common/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/common/nav-simple/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/common/nav-simple/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/service/user-service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/mm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/layout/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/layout/head-common.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/resource/a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/user-login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/base.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/user-login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/view/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/view/user-login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/css-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/css-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/extract-text-webpack-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/extract-text-webpack-plugin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/html-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/html-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/html-webpack-plugin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/html-webpack-plugin/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/style-loader/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/style-loader/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webpack/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/webpack/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/common/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/index/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/index/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/user-login/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/user-login/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/layout/html-head.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view/user-login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="0f4a1018-2d52-46ae-983d-a3174d9b35c3" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -146,7 +111,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="55" />
     <option name="y" value="11" />
     <option name="width" value="964" />
@@ -302,12 +267,12 @@
       <updated>1549074720077</updated>
       <workItem from="1549074723376" duration="26758000" />
       <workItem from="1549104859096" duration="36826000" />
-      <workItem from="1549519106123" duration="31435000" />
+      <workItem from="1549519106123" duration="32035000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95019000" />
+    <option name="totallyTimeSpent" value="95619000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,7 +285,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="11" width="964" height="699" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49295774" visible="true" weight="0.20518358" />
