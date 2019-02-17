@@ -161,11 +161,51 @@ body{
     margin-top: -7px;
 }
 /*用户名下距离*/
-.user-con .user-item{
+.user-con .user-item {
     position: relative;
     margin-bottom: 20px;
 }
+/*验证码下距离*/
+.user-itemy{
+    position: relative;
 
+    /*下边框距离*/
+    margin-bottom: 20px;
+
+
+}
+
+.user-contenty{
+    padding: 10px 0 10px 15px;
+    width: 100px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 15px;
+    border: 1px solid #bdbdbd;
+    outline: none;
+}
+
+
+
+.btn-submity{
+    background: #a5a7aa;
+    color:#fff;
+    text-decoration:none;
+    width: 140px;
+    display:block;
+    text-align:center;
+    border: none;
+
+    font-size: 18px;
+
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    /*字也可以点*/
+    cursor: pointer;
+    float :right;
+
+}
 .user-con .user-item .user-label{
     position: absolute;
     left: 1px;
@@ -179,7 +219,7 @@ body{
     text-align: center;
     border-right: 1px solid #bdbdbd;
 }
-.user-con .user-item .user-content{
+.user-con .user-item .user-content  {
     padding: 10px 0 10px 65px;
     width: 193px;
     height: 18px;
@@ -195,10 +235,20 @@ body{
     width: 260px;
     display:block;
     text-align:center;
-
+    border: none;
     padding: 2px 0;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    /*字也可以点*/
+    cursor: pointer;
+
 }
+
+
+
 /* 跳转链接 */
 .user-con .link-item{
     text-align: right;

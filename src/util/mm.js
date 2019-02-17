@@ -8,6 +8,7 @@
 'use strict';
 
 var Hogan = require('hogan.js');
+
 // 获取服务器地址
 var conf = {
     serverHost : ''
@@ -16,11 +17,14 @@ var _mm = {
     // 网络请求
     request : function(param){
         var _this = this;
+        // 提交表单
+
         $.ajax({
             type        : param.method  || 'get',
             url         : param.url     || '',
             dataType    : param.type    || 'json',
             data        : param.data    || '',
+
             success     : function(res){
                 // 请求成功
                 if(0 === res.status){

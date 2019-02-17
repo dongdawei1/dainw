@@ -26,7 +26,7 @@ var config  = {
         'index'             : ['./src/page/index/index.js'],
         //所有页面都会用的组件
         'common'            : ['./src/page/common/index.js'],
-        // 'list'              : ['./src/page/list/index.js'],
+         'main'              : ['./src/page/main/index.js'],
         // 'detail'            : ['./src/page/detail/index.js'],
         // 'cart'              : ['./src/page/cart/index.js'],
        // 'user-login'        : ['./src/page/user-login/index.js'],
@@ -83,7 +83,7 @@ var config  = {
        new ExtractTextPlugin("css/[name].css"),
         // html模板的处理,打完包样式就有了，访问打包后的html
         new HtmlWebpackPlugin(getHtmlConfig('index', '首页')),
-        // new HtmlWebpackPlugin(getHtmlConfig('list', '商品列表页')),
+        new HtmlWebpackPlugin(getHtmlConfig('main', '主页面')),
         // new HtmlWebpackPlugin(getHtmlConfig('detail', '商品详情页')),
         // new HtmlWebpackPlugin(getHtmlConfig('cart', '购物车')),
        // new HtmlWebpackPlugin(getHtmlConfig('user-login', '用户登录')),

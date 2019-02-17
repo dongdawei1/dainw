@@ -52,8 +52,11 @@ var page = {
         // 验证成功
         if(validateResult.status){
             _user.login(formData, function(res){
-                window.location.href = _mm.getUrlParam('redirect') || './index.html';
+                console.log(res)
+
+             window.location.href = _mm.getUrlParam('redirect') || './main.html';
             }, function(errMsg){
+
                 formError.show(errMsg);
             });
         }
