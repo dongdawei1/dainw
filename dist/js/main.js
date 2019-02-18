@@ -1,1 +1,1 @@
-webpackJsonp([1],{15:function(n,o,c){n.exports=c(16)},16:function(n,o){}},[15]);
+webpackJsonp([1],{14:function(n,i,o){n.exports=o(15)},15:function(n,i,o){"use strict";o(16);var c=o(1),t=(o(0),{init:function(){this.checkLogin()},checkLogin:function(){this.submit()},submit:function(){c.checkLogin(function(n){console.log(n)},function(n){"用户未登录,无法获取当前用户的信息"===n&&console.log(n)})}});$(function(){t.init()})},16:function(n,i){}},[14]);
