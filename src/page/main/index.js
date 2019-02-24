@@ -42,17 +42,32 @@ var page = {
 
                 var yijidaohang = res[0].children;
 
-                console.log(yijidaohang)
-
-
+                var yijidaohang_list = "";
                 for(var a=0; a<yijidaohang.length;a++){
-                    $("#gongneng").html( "<span class='yijidaohang'   >"+ yijidaohang[a].name+"</span><br>");
 
-                    console.log(yijidaohang[a].name)
+                    yijidaohang_list += " <ul class='yijidaohang' > <a href=\"#\">" +
+                        "<li>"+ yijidaohang[a].name+" </a> </li> <ul  class='erjidaohang' >"
+
+
+
+                     for(var b = 0; b<yijidaohang[a].children.length ; b++){
+
+                         yijidaohang_list += "<li><a href=\"#\">"+( yijidaohang[a].children)[b].name + " </a>  </li> ";
+                     }
+                    yijidaohang_list += "</ul> </ul>"
+
                 }
 
+                console.log(yijidaohang_list)
+                $("#gongneng").html( yijidaohang_list);
 
 
+                //收起展开
+                $("#gongneng ul li").next("ul").hide();
+                $("#gongneng ul li").click(function()
+                {
+                    $(this).next("ul").toggle();
+                });
 
             }, function(errMsg){
 
@@ -71,8 +86,16 @@ var page = {
 
     }
 };
+
+
+
 $(function(){
+
+
     page.init();
+
+
+
 })
 
 
