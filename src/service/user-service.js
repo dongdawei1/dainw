@@ -20,6 +20,21 @@ var _user = {
             error   : reject
         });
     },
+
+
+    // 获取用户权限
+    permission : function( resolve, reject){
+        _mm.request({
+            url     : _mm.getServerUrl('/permission/loadData'),
+            method  : 'GET',
+            success : resolve,
+            error   : reject
+        });
+    },
+
+
+
+
     // 检查用户名
     checkUsername : function(username, resolve, reject){
         _mm.request({

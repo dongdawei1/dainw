@@ -25,6 +25,7 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "hogan.js": "^3.0.2",
-    "jquery": "^3.2.1"
+    "jquery": "^3.2.1",
+    "ztree": "^3.5.24"
   }
 }
